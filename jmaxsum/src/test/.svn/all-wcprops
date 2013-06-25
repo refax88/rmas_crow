@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/67/trunk/jmaxsum/src/test
+END
+PGToData.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/63/trunk/jmaxsum/src/test/PGToData.java
+END
+PGSolved.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/51/trunk/jmaxsum/src/test/PGSolved.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/17/trunk/jmaxsum/src/test/package-info.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/65/trunk/jmaxsum/src/test/Main.java
+END
+GridInstanceCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/63/trunk/jmaxsum/src/test/GridInstanceCreator.java
+END
+DebugVerbosity.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/67/trunk/jmaxsum/src/test/DebugVerbosity.java
+END

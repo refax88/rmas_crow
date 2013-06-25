@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/62/trunk/jmaxsum/src/function
+END
+FunctionEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/62/trunk/jmaxsum/src/function/FunctionEvaluator.java
+END
+RelaxableFunctionEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/58/trunk/jmaxsum/src/function/RelaxableFunctionEvaluator.java
+END
+CO2Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/32/trunk/jmaxsum/src/function/CO2Function.java
+END
+TabularFunctionOnlyValidRows.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/49/trunk/jmaxsum/src/function/TabularFunctionOnlyValidRows.java
+END
+CO2Simple.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/46/trunk/jmaxsum/src/function/CO2Simple.java
+END
+TabularFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/57/trunk/jmaxsum/src/function/TabularFunction.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/17/trunk/jmaxsum/src/function/package-info.java
+END
+RelaxedTabularFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/58/trunk/jmaxsum/src/function/RelaxedTabularFunction.java
+END

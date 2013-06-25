@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 150
+*.project
+reports
+*.hgignore
+*.dat
+*.classpath
+build
+*.txt
+*.mf
+DCOPProblem
+dati_08_12_11
+doxygen
+*.hg
+report
+*.zip
+*.xml
+nbproject
+*.out
+*.cop2
+dist
+
+END

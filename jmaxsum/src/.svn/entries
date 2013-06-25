@@ -1,0 +1,73 @@
+10
+
+dir
+67
+http://jmaxsum.googlecode.com/svn/trunk/jmaxsum/src
+http://jmaxsum.googlecode.com/svn
+
+
+
+2012-04-28T18:46:50.346755Z
+67
+roncallim@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+279ed30a-4cf1-bc64-2c86-6e8f4e266af1
+
+powerGrid
+dir
+
+jargs
+dir
+
+messages
+dir
+
+maxsum
+dir
+
+boundedMaxSum
+dir
+
+test
+dir
+
+system
+dir
+
+function
+dir
+
+hacks
+dir
+
+misc
+dir
+
+exception
+dir
+
+olimpo
+dir
+
+operation
+dir
+
+factorgraph
+dir
+
+META-INF
+dir
+

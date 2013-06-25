@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/65/trunk/jmaxsum/src/operation
+END
+OPlus_MinSum.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/45/trunk/jmaxsum/src/operation/OPlus_MinSum.java
+END
+OTimes_MaxSum.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/45/trunk/jmaxsum/src/operation/OTimes_MaxSum.java
+END
+Solver.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/65/trunk/jmaxsum/src/operation/Solver.java
+END
+Operator.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/37/trunk/jmaxsum/src/operation/Operator.java
+END
+OPlus_MaxSum.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/45/trunk/jmaxsum/src/operation/OPlus_MaxSum.java
+END
+MSumOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/36/trunk/jmaxsum/src/operation/MSumOperator.java
+END
+OTimes.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/trunk/jmaxsum/src/operation/OTimes.java
+END
+OPlus.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/23/trunk/jmaxsum/src/operation/OPlus.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/17/trunk/jmaxsum/src/operation/package-info.java
+END

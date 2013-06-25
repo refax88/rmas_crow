@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".." name="RSLBench-IDE">
+    <!-- TODO: edit the following target according to your needs -->
+    <!-- (more info: http://www.netbeans.org/kb/articles/freeform-config.html#runsingle) -->
+    <target name="run-selected-file-in-src">
+        <fail unless="run.class">Must set property 'run.class'</fail>
+        <java classname="${run.class}" failonerror="true" fork="true">
+            <classpath>
+                <pathelement path="/home/fabio/artificial_intelligence/rmas_bench/jars/rescuecore2.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/standard.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/clear.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/collapse.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/gis2.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/handy.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/human.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/ignition.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/kernel.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/maps.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/max_sum.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/misc.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/resq-fire.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/sample.jar:/home/fabio/artificial_intelligence/rmas_bench/jars/traffic3.jar"/>
+            </classpath>
+        </java>
+    </target>
+</project>

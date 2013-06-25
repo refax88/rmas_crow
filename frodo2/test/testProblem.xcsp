@@ -1,0 +1,145 @@
+<instance>
+  <presentation name="FireExtinguishing" maxConstraintArity="2" maximize="true" format="XCSP 2.1_FRODO" />
+
+  <domains nbDomains="1">
+    <domain name="targets" nbValues="20">-1..18</domain>
+  </domains>
+
+  <variables nbVariables="12">
+    <variable name="a0" domain="targets" owner="agent0" />
+    <variable name="a1" domain="targets" owner="agent1" />
+    <variable name="a2" domain="targets" owner="agent2" />
+    <variable name="a3" domain="targets" owner="agent3" />
+    <variable name="a4" domain="targets" owner="agent4" />
+    <variable name="a5" domain="targets" owner="agent5" />
+    <variable name="a6" domain="targets" owner="agent6" />
+    <variable name="a7" domain="targets" owner="agent7" />
+    <variable name="a8" domain="targets" owner="agent8" />
+    <variable name="a9" domain="targets" owner="agent9" />
+    <variable name="a10" domain="targets" owner="agent10" />
+    <variable name="a11" domain="targets" owner="agent11" />
+  </variables>
+
+  <relations nbRelations="13">
+    <relation name="agent0_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.9100580999274026: 0|3.1305527548972463: 1|2.9160148722067323: 2|9.202062763257238: 3|8.46265594333498: 4|2.9031172299775063: 5|3.0277546346198685: 6|8.88462259238782: 7|3.043187325387433: 8|4.689153909922106: 9|3.178454701613647: 10|4.351186699189191: 11|0.011515477889206153: 12|2.889970150630635: 13|0.01010335471599639: 14|3.1569754149478757: 15|4.264797664152312: 16|0.015256617482671417: 17|4.23828808083229: 18
+    </relation>
+    <relation name="agent1_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      3.085065245963813: 0|3.330878123150798: 1|3.09219021776421: 2|10.009999999999998: 3|9.329342721431964: 4|3.0767713804654306: 5|3.218493243333324: 6|9.305032888209979: 7|3.2363725069987104: 8|4.960037446740577: 9|3.389253226128242: 10|4.584905877380886: 11|0.011745860351368941: 12|3.060894361084295: 13|0.010289855928670166: 14|3.3631107297450624: 15|4.493516838199497: 16|0.015876324589343585: 17|4.434813493915347: 18
+    </relation>
+    <relation name="agent2_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.909986480318354: 0|3.1417984146182816: 1|2.9139308137752455: 2|8.054062461006682: 3|7.526374758550578: 4|2.9051756088144325: 5|3.0236833888672345: 6|7.7573168720173244: 7|3.0366543358453217: 8|4.949931413922758: 9|3.17428401728801: 10|4.574928352085019: 11|0.011754917042952725: 12|2.896219605885853: 13|0.010107795223252636: 14|3.1604968359736745: 15|4.476378337737181: 16|0.014336431971790709: 17|4.468752162122429: 18
+    </relation>
+    <relation name="agent3_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.806421917195028: 0|3.0295836277152506: 1|2.808592819529151: 2|7.056267275296269: 3|6.625437028151283: 4|2.8035421035470764: 5|2.908912610092708: 6|6.88359282165983: 7|2.919162012793258: 8|4.929018880253669: 9|3.047951212393132: 10|4.559527463319654: 11|0.011751106308803792: 12|2.7984338850508985: 13|0.01: 14|3.0408612590997146: 15|4.4573976413103935: 16|0.013522170180340883: 17|4.484493033191842: 18
+    </relation>
+    <relation name="agent4_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      6.9500802463923685: 0|7.863999713231794: 1|7.0320375493724: 2|5.6412839646185144: 3|6.097481346136768: 4|6.857284673732078: 5|7.749885407186886: 6|5.019416144865384: 7|7.90975868995205: 8|5.519523910732909: 9|8.779947543430266: 10|5.286294581533795: 11|0.012271303286219273: 12|6.670251386788337: 13|0.014485393965332521: 14|8.350618720010171: 15|5.286362257435895: 16|0.012644523199455564: 17|4.8249410181490955: 18
+    </relation>
+    <relation name="agent5_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      6.9500802463923685: 0|7.863999713231794: 1|7.0320375493724: 2|5.6412839646185144: 3|6.097481346136768: 4|6.857284673732078: 5|7.749885407186886: 6|5.019416144865384: 7|7.90975868995205: 8|5.519523910732909: 9|8.779947543430266: 10|5.286294581533795: 11|0.012271303286219273: 12|6.670251386788337: 13|0.014485393965332521: 14|8.350618720010171: 15|5.286362257435895: 16|0.012644523199455564: 17|4.8249410181490955: 18
+    </relation>
+    <relation name="agent6_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.806421917195028: 0|3.0295836277152506: 1|2.808592819529151: 2|7.056267275296269: 3|6.625437028151283: 4|2.8035421035470764: 5|2.908912610092708: 6|6.88359282165983: 7|2.919162012793258: 8|4.929018880253669: 9|3.047951212393132: 10|4.559527463319654: 11|0.011751106308803792: 12|2.7984338850508985: 13|0.01: 14|3.0408612590997146: 15|4.4573976413103935: 16|0.013522170180340883: 17|4.484493033191842: 18
+    </relation>
+    <relation name="agent7_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.968562112325268: 0|3.1973224510351255: 1|2.9749113638042513: 2|9.506532415141704: 3|8.772478509592496: 4|2.9611694781711644: 5|3.091416175530978: 6|9.06514298053745: 7|3.107659682390433: 8|4.78137502293937: 9|3.2486624157463595: 10|4.430747008474168: 11|0.011594147980459808: 12|2.947123923883233: 13|0.01016561065317757: 14|3.22565886962233: 15|4.342543253166747: 16|0.015489640306467503: 17|4.305684285242094: 18
+    </relation>
+    <relation name="agent8_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      3.085065245963813: 0|3.330878123150798: 1|3.09219021776421: 2|10.009999999999998: 3|9.329342721431964: 4|3.0767713804654306: 5|3.218493243333324: 6|9.305032888209979: 7|3.2363725069987104: 8|4.960037446740577: 9|3.389253226128242: 10|4.584905877380886: 11|0.011745860351368941: 12|3.060894361084295: 13|0.010289855928670166: 14|3.3631107297450624: 15|4.493516838199497: 16|0.015876324589343585: 17|4.434813493915347: 18
+    </relation>
+    <relation name="agent9_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.9100580999274026: 0|3.1305527548972463: 1|2.9160148722067323: 2|9.202062763257238: 3|8.46265594333498: 4|2.9031172299775063: 5|3.0277546346198685: 6|8.88462259238782: 7|3.043187325387433: 8|4.689153909922106: 9|3.178454701613647: 10|4.351186699189191: 11|0.011515477889206153: 12|2.889970150630635: 13|0.01010335471599639: 14|3.1569754149478757: 15|4.264797664152312: 16|0.015256617482671417: 17|4.23828808083229: 18
+    </relation>
+    <relation name="agent10_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.909986480318354: 0|3.1417984146182816: 1|2.9139308137752455: 2|8.054062461006682: 3|7.526374758550578: 4|2.9051756088144325: 5|3.0236833888672345: 6|7.7573168720173244: 7|3.0366543358453217: 8|4.949931413922758: 9|3.17428401728801: 10|4.574928352085019: 11|0.011754917042952725: 12|2.896219605885853: 13|0.010107795223252636: 14|3.1604968359736745: 15|4.476378337737181: 16|0.014336431971790709: 17|4.468752162122429: 18
+    </relation>
+    <relation name="agent11_utility" arity="1" nbTuples="19" semantics="soft" defaultCost="0">
+      2.968562112325268: 0|3.1973224510351255: 1|2.9749113638042513: 2|9.506532415141704: 3|8.772478509592496: 4|2.9611694781711644: 5|3.091416175530978: 6|9.06514298053745: 7|3.107659682390433: 8|4.78137502293937: 9|3.2486624157463595: 10|4.430747008474168: 11|0.011594147980459808: 12|2.947123923883233: 13|0.01016561065317757: 14|3.22565886962233: 15|4.342543253166747: 16|0.015489640306467503: 17|4.305684285242094: 18
+    </relation>
+    <relation name="2_conflict" arity="2" nbTuples="19" semantics="soft" defaultCost="0">
+      -infinity: 0 0| 1 1| 2 2| 3 3| 4 4| 5 5| 6 6| 7 7| 8 8| 9 9| 10 10| 11 11| 12 12| 13 13| 14 14| 15 15| 16 16| 17 17| 18 18
+    </relation>
+  </relations>
+
+  <constraints nbConstraints="78">
+    <constraint name="agent0_one_target" arity="1" scope="a0" reference="agent0_utility" />
+    <constraint name="agent1_one_target" arity="1" scope="a1" reference="agent1_utility" />
+    <constraint name="agent2_one_target" arity="1" scope="a2" reference="agent2_utility" />
+    <constraint name="agent3_one_target" arity="1" scope="a3" reference="agent3_utility" />
+    <constraint name="agent4_one_target" arity="1" scope="a4" reference="agent4_utility" />
+    <constraint name="agent5_one_target" arity="1" scope="a5" reference="agent5_utility" />
+    <constraint name="agent6_one_target" arity="1" scope="a6" reference="agent6_utility" />
+    <constraint name="agent7_one_target" arity="1" scope="a7" reference="agent7_utility" />
+    <constraint name="agent8_one_target" arity="1" scope="a8" reference="agent8_utility" />
+    <constraint name="agent9_one_target" arity="1" scope="a9" reference="agent9_utility" />
+    <constraint name="agent10_one_target" arity="1" scope="a10" reference="agent10_utility" />
+    <constraint name="agent11_one_target" arity="1" scope="a11" reference="agent11_utility" />
+    <constraint name="different targets fora0 a1" arity="2" scope="a0 a1" reference="2_conflict" />
+    <constraint name="different targets fora0 a2" arity="2" scope="a0 a2" reference="2_conflict" />
+    <constraint name="different targets fora0 a3" arity="2" scope="a0 a3" reference="2_conflict" />
+    <constraint name="different targets fora0 a4" arity="2" scope="a0 a4" reference="2_conflict" />
+    <constraint name="different targets fora0 a5" arity="2" scope="a0 a5" reference="2_conflict" />
+    <constraint name="different targets fora0 a6" arity="2" scope="a0 a6" reference="2_conflict" />
+    <constraint name="different targets fora0 a7" arity="2" scope="a0 a7" reference="2_conflict" />
+    <constraint name="different targets fora0 a8" arity="2" scope="a0 a8" reference="2_conflict" />
+    <constraint name="different targets fora0 a9" arity="2" scope="a0 a9" reference="2_conflict" />
+    <constraint name="different targets fora0 a10" arity="2" scope="a0 a10" reference="2_conflict" />
+    <constraint name="different targets fora0 a11" arity="2" scope="a0 a11" reference="2_conflict" />
+    <constraint name="different targets fora1 a2" arity="2" scope="a1 a2" reference="2_conflict" />
+    <constraint name="different targets fora1 a3" arity="2" scope="a1 a3" reference="2_conflict" />
+    <constraint name="different targets fora1 a4" arity="2" scope="a1 a4" reference="2_conflict" />
+    <constraint name="different targets fora1 a5" arity="2" scope="a1 a5" reference="2_conflict" />
+    <constraint name="different targets fora1 a6" arity="2" scope="a1 a6" reference="2_conflict" />
+    <constraint name="different targets fora1 a7" arity="2" scope="a1 a7" reference="2_conflict" />
+    <constraint name="different targets fora1 a8" arity="2" scope="a1 a8" reference="2_conflict" />
+    <constraint name="different targets fora1 a9" arity="2" scope="a1 a9" reference="2_conflict" />
+    <constraint name="different targets fora1 a10" arity="2" scope="a1 a10" reference="2_conflict" />
+    <constraint name="different targets fora1 a11" arity="2" scope="a1 a11" reference="2_conflict" />
+    <constraint name="different targets fora2 a3" arity="2" scope="a2 a3" reference="2_conflict" />
+    <constraint name="different targets fora2 a4" arity="2" scope="a2 a4" reference="2_conflict" />
+    <constraint name="different targets fora2 a5" arity="2" scope="a2 a5" reference="2_conflict" />
+    <constraint name="different targets fora2 a6" arity="2" scope="a2 a6" reference="2_conflict" />
+    <constraint name="different targets fora2 a7" arity="2" scope="a2 a7" reference="2_conflict" />
+    <constraint name="different targets fora2 a8" arity="2" scope="a2 a8" reference="2_conflict" />
+    <constraint name="different targets fora2 a9" arity="2" scope="a2 a9" reference="2_conflict" />
+    <constraint name="different targets fora2 a10" arity="2" scope="a2 a10" reference="2_conflict" />
+    <constraint name="different targets fora2 a11" arity="2" scope="a2 a11" reference="2_conflict" />
+    <constraint name="different targets fora3 a4" arity="2" scope="a3 a4" reference="2_conflict" />
+    <constraint name="different targets fora3 a5" arity="2" scope="a3 a5" reference="2_conflict" />
+    <constraint name="different targets fora3 a6" arity="2" scope="a3 a6" reference="2_conflict" />
+    <constraint name="different targets fora3 a7" arity="2" scope="a3 a7" reference="2_conflict" />
+    <constraint name="different targets fora3 a8" arity="2" scope="a3 a8" reference="2_conflict" />
+    <constraint name="different targets fora3 a9" arity="2" scope="a3 a9" reference="2_conflict" />
+    <constraint name="different targets fora3 a10" arity="2" scope="a3 a10" reference="2_conflict" />
+    <constraint name="different targets fora3 a11" arity="2" scope="a3 a11" reference="2_conflict" />
+    <constraint name="different targets fora4 a5" arity="2" scope="a4 a5" reference="2_conflict" />
+    <constraint name="different targets fora4 a6" arity="2" scope="a4 a6" reference="2_conflict" />
+    <constraint name="different targets fora4 a7" arity="2" scope="a4 a7" reference="2_conflict" />
+    <constraint name="different targets fora4 a8" arity="2" scope="a4 a8" reference="2_conflict" />
+    <constraint name="different targets fora4 a9" arity="2" scope="a4 a9" reference="2_conflict" />
+    <constraint name="different targets fora4 a10" arity="2" scope="a4 a10" reference="2_conflict" />
+    <constraint name="different targets fora4 a11" arity="2" scope="a4 a11" reference="2_conflict" />
+    <constraint name="different targets fora5 a6" arity="2" scope="a5 a6" reference="2_conflict" />
+    <constraint name="different targets fora5 a7" arity="2" scope="a5 a7" reference="2_conflict" />
+    <constraint name="different targets fora5 a8" arity="2" scope="a5 a8" reference="2_conflict" />
+    <constraint name="different targets fora5 a9" arity="2" scope="a5 a9" reference="2_conflict" />
+    <constraint name="different targets fora5 a10" arity="2" scope="a5 a10" reference="2_conflict" />
+    <constraint name="different targets fora5 a11" arity="2" scope="a5 a11" reference="2_conflict" />
+    <constraint name="different targets fora6 a7" arity="2" scope="a6 a7" reference="2_conflict" />
+    <constraint name="different targets fora6 a8" arity="2" scope="a6 a8" reference="2_conflict" />
+    <constraint name="different targets fora6 a9" arity="2" scope="a6 a9" reference="2_conflict" />
+    <constraint name="different targets fora6 a10" arity="2" scope="a6 a10" reference="2_conflict" />
+    <constraint name="different targets fora6 a11" arity="2" scope="a6 a11" reference="2_conflict" />
+    <constraint name="different targets fora7 a8" arity="2" scope="a7 a8" reference="2_conflict" />
+    <constraint name="different targets fora7 a9" arity="2" scope="a7 a9" reference="2_conflict" />
+    <constraint name="different targets fora7 a10" arity="2" scope="a7 a10" reference="2_conflict" />
+    <constraint name="different targets fora7 a11" arity="2" scope="a7 a11" reference="2_conflict" />
+    <constraint name="different targets fora8 a9" arity="2" scope="a8 a9" reference="2_conflict" />
+    <constraint name="different targets fora8 a10" arity="2" scope="a8 a10" reference="2_conflict" />
+    <constraint name="different targets fora8 a11" arity="2" scope="a8 a11" reference="2_conflict" />
+    <constraint name="different targets fora9 a10" arity="2" scope="a9 a10" reference="2_conflict" />
+    <constraint name="different targets fora9 a11" arity="2" scope="a9 a11" reference="2_conflict" />
+    <constraint name="different targets fora10 a11" arity="2" scope="a10 a11" reference="2_conflict" />
+  </constraints>
+</instance>

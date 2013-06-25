@@ -1,0 +1,46 @@
+<agentDescription className = "ch.epfl.lia.frodo.algorithms.SingleQueueAgent"  
+  measureTime = "true" measureMsgs = "false" >  
+ 
+  <parser parserClass = "ch.epfl.lia.frodo.algorithms.XCSPparser"  
+          displayGraph = "false"  
+          utilClass = "ch.epfl.lia.frodo.solutionSpaces.AddableInteger" />  
+ 
+  <modules>  
+    <module className = "ch.epfl.lia.frodo.algorithms.dpop.VariableElection"  
+      nbrSteps = "150" >  
+      <varElectionHeuristic  
+        className = "ch.epfl.lia.frodo.algorithms.heuristics.ScoringHeuristicWithTiebreaker" >  
+        <heuristic1  
+          className = "ch.epfl.lia.frodo.algorithms.heuristics.MostConnectedHeuristic" />  
+        <heuristic2  
+          className = "ch.epfl.lia.frodo.algorithms.heuristics.ScoringHeuristicWithTiebreaker" >  
+          <heuristic1  
+            className = "ch.epfl.lia.frodo.algorithms.heuristics.SmallestDomainHeuristic" />  
+          <heuristic2 className = "ch.epfl.lia.frodo.algorithms.heuristics.VarNameHeuristic" />  
+        </heuristic2>  
+      </varElectionHeuristic>  
+    </module>  
+ 
+    <module className = "ch.epfl.lia.frodo.algorithms.dpop.DFSgeneration"  
+      reportStats = "true" >  
+      <dfsHeuristic  
+        className = "ch.epfl.lia.frodo.algorithms.dpop.DFSgeneration$ScoreBroadcastingHeuristic" >  
+        <scoringHeuristic  
+          className = "ch.epfl.lia.frodo.algorithms.heuristics.ScoringHeuristicWithTiebreaker" >  
+          <heuristic1  
+            className = "ch.epfl.lia.frodo.algorithms.heuristics.MostConnectedHeuristic" />  
+          <heuristic2  
+            className = "ch.epfl.lia.frodo.algorithms.heuristics.SmallestDomainHeuristic" />  
+        </scoringHeuristic>  
+      </dfsHeuristic>  
+    </module>  
+ 
+    <module className = "ch.epfl.lia.frodo.algorithms.dpop.UTILpropagation"  
+      reportStats = "true"  
+      countNCCCs = "false" />  
+ 
+    <module className = "ch.epfl.lia.frodo.algorithms.dpop.VALUEpropagation"  
+      reportStats = "true" />  
+  </modules>  
+ 
+</agentDescription>

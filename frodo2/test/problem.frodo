@@ -1,0 +1,26 @@
+<instance>  
+  <presentation name="sampleProblem" maxConstraintArity="2"  
+                maximize="true" format="XCSP 2.1_FRODO" />  
+ 
+  <domains nbDomains="1">  
+    <domain name="ten_targets" nbValues="3">1..10</domain>  
+  </domains>  
+ 
+  <variables nbVariables="9">  
+    <variable name="X" domain="ten_targets" owner="agentX" />  
+    <variable name="Y" domain="ten_targets" owner="agentY" />  
+    <variable name="Z" domain="ten_targets" owner="agentZ" />  
+  </variables>  
+ 
+  <relations nbRelations="1">  
+    <relation name="NEQ" arity="2" nbTuples="3" semantics="soft" defaultCost="0">  
+      infinity: 1 1|2 2|3 3  
+    </relation>  
+  </relations>  
+ 
+  <constraints nbConstraints="3">  
+    <constraint name="X_and_Y_have_different_colors" arity="2" scope="X Y" reference="NEQ" />  
+    <constraint name="X_and_Z_have_different_colors" arity="2" scope="X Z" reference="NEQ" />  
+    <constraint name="Y_and_Z_have_different_colors" arity="2" scope="Y Z" reference="NEQ" />  
+  </constraints>  
+</instance> 

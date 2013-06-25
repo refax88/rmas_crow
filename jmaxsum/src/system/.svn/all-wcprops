@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/67/trunk/jmaxsum/src/system
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/trunk/jmaxsum/src/system/package-info.java
+END
+WalkGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/63/trunk/jmaxsum/src/system/WalkGrid.java
+END
+RelaxableCop_Instance.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/58/trunk/jmaxsum/src/system/RelaxableCop_Instance.java
+END
+COP_Instance.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/67/trunk/jmaxsum/src/system/COP_Instance.java
+END
+SARecycler.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/63/trunk/jmaxsum/src/system/SARecycler.java
+END

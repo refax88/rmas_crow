@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/66/trunk/jmaxsum/src/misc
+END
+ThreeKeysHashtable.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/19/trunk/jmaxsum/src/misc/ThreeKeysHashtable.java
+END
+DisjointSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/20/trunk/jmaxsum/src/misc/DisjointSet.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/47/trunk/jmaxsum/src/misc/Utils.java
+END
+TwoKeysHashtable.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19/trunk/jmaxsum/src/misc/TwoKeysHashtable.java
+END
+DisjointSetEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19/trunk/jmaxsum/src/misc/DisjointSetEdge.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/17/trunk/jmaxsum/src/misc/package-info.java
+END
+DisjointSetNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/66/trunk/jmaxsum/src/misc/DisjointSetNode.java
+END
+NodeArgumentArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/46/trunk/jmaxsum/src/misc/NodeArgumentArray.java
+END

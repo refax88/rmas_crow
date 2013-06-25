@@ -1,0 +1,7 @@
+!include common.cfg
+
+base_package: RSLBench
+
+assignment_group: AAMAS12
+assignment_class: DA_EFPO
+dsa_change_value_probability: 0.5

@@ -1,0 +1,71 @@
+<project name="RSLBench" default="dist" basedir=".">
+    <description>
+        Build the RSLBench code
+    </description>
+
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="bin"/>
+  <property environment="env"/>
+  <property name="jar.dir" value="../jars"/>
+  <property name="lib.dir" value="../lib"/>
+  <property name="supplement.dir" value="../supplement"/>
+  <property name="build.sysclasspath" value="ignore" />
+
+
+  <!-- General javac flags -->
+  <property name="javac.flags" value="-Xlint:unchecked,deprecation"/> 
+
+
+  <path id="path.jars">
+  <fileset dir="${jar.dir}">
+        <include name="**/*.jar"/>
+    </fileset>
+  </path>
+  <path id="path.lib">
+  <fileset dir="${lib.dir}">
+        <include name="**/*.jar"/>
+    </fileset>
+  </path>
+  <path id="path.supplement">
+  <fileset dir="${supplement.dir}">
+        <include name="**/*.jar"/>
+    </fileset>
+  </path>
+
+
+  <target name="init" depends="clean">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+
+  <target name="compile" depends="init" description="compile the source" >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}">
+         <classpath>
+          <path refid="path.jars"/>
+          <path refid="path.lib"/>
+          <path refid="path.supplement"/>
+        </classpath>
+        <include name="**/*.java"/>
+        <!-- <compilerarg value="${javac.flags}"/>-->
+    </javac>
+  </target>
+
+  <target name="dist" depends="compile" description="generate the distribution" >
+    <!-- Create the distribution directory -->
+    <!-- <mkdir dir="${dist}/lib"/> -->
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${build}/RSLBench-${DSTAMP}.jar" basedir="${build}"/> 
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+  </target>
+</project>
+

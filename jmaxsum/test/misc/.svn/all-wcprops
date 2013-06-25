@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/47/trunk/jmaxsum/test/misc
+END
+DisjointSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/19/trunk/jmaxsum/test/misc/DisjointSetTest.java
+END
+ThreeKeysHashtableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/jmaxsum/test/misc/ThreeKeysHashtableTest.java
+END
+UtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/47/trunk/jmaxsum/test/misc/UtilsTest.java
+END
+TwoKeysHashtableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/jmaxsum/test/misc/TwoKeysHashtableTest.java
+END
+DisjointSetEdgeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/13/trunk/jmaxsum/test/misc/DisjointSetEdgeTest.java
+END
+NodeArgumentArrayTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/46/trunk/jmaxsum/test/misc/NodeArgumentArrayTest.java
+END

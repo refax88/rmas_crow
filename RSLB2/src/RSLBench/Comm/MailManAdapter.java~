@@ -1,0 +1,25 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package RSLBench.Comm;
+
+/**
+ *
+ * @author fabio
+ */
+import messages.MailMan;
+
+
+public class MailManAdapter extends ComSimulator {
+    
+public static MailMan mailman;
+    public MailManAdapter() {
+        super(1);
+    }
+    
+    public MailMan getMailMan() {
+        return this.mailman;
+    }
+    
+}

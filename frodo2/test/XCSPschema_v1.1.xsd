@@ -1,0 +1,372 @@
+<!-- 
+FRODO: a FRamework for Open/Distributed Optimization
+Copyright (C) 2008, 2009, 2010  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+
+How to contact the authors: 
+<http://lia.epfl.ch/>
+
+EPFL / IC / IIF / LIA
+Batiment IN 
+Station 14 
+CH - 1015 Lausanne 
+Switzerland
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation>XML schema file for FRODO's XCSP format. 
+WARNING! This file is in format 1.1; a parser that supports this experimental format is necessary, such as Xerces2 Java Parser 2.10.0-xml-schema-1.1-beta. </xs:documentation>
+	</xs:annotation>
+
+	<xs:element name="instance">
+		<xs:annotation>
+			<xs:documentation>A DisCSP or DCOP problem instance</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="presentation" minOccurs="1" />
+				<xs:element ref="domains" minOccurs="1" />
+				<xs:element ref="variables" minOccurs="1" />
+				<xs:element ref="relations" minOccurs="1" />
+				<xs:element ref="probabilities" minOccurs="0" />
+				<xs:element ref="constraints" minOccurs="1" />
+			</xs:all>
+		</xs:complexType>
+
+		<xs:key name="domKey">
+			<xs:annotation>
+				<xs:documentation>Each domain must have a unique name</xs:documentation>
+			</xs:annotation>
+			<xs:selector xpath="domains/domain" />
+			<xs:field xpath="@name" />
+		</xs:key>
+		
+		<xs:keyref name="domRef" refer="domKey">
+			<xs:annotation>
+				<xs:documentation>Each variable must reference an existing domain</xs:documentation>
+			</xs:annotation>
+			<xs:selector xpath="variables/variable" />
+			<xs:field xpath="@domain" />
+		</xs:keyref>
+
+		<xs:key name="relKey">
+			<xs:annotation>
+				<xs:documentation>Each relation or probability law must have a unique name</xs:documentation>
+			</xs:annotation>
+			<xs:selector xpath="relations/relation | probabilities/probability" />
+			<xs:field xpath="@name" />
+		</xs:key>
+	</xs:element>
+	
+	<xs:element name="presentation">
+		<xs:annotation>
+			<xs:documentation>General information about the problem instance</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="name" type="xs:string" use="optional" />
+			<xs:attribute name="format" type="xs:string" use="required" fixed="XCSP 2.1_FRODO" />
+			<xs:attribute name="maxConstraintArity" type="xs:positiveInteger" use="required">
+				<xs:annotation>
+					<xs:documentation>The maximum number of variables in a constraint scope</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="maximize" type="xs:boolean" default="false">
+				<xs:annotation>
+					<xs:documentation>If true, then this is a maximization problem; if false, then this is a minimization problem</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="domains">
+		<xs:annotation>
+			<xs:documentation>The list of variable domains</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="domain" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="nbDomains" type="xs:positiveInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="variableValue">
+		<xs:annotation>
+			<xs:documentation>Variables are allowed to take decimal values (positive or negative), and are also allowed be infinite (positively or negatively)</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(\+|-)?(infinity|\d+(\.\d*)?)" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="domain">
+		<xs:annotation>
+			<xs:documentation>A domain is a white-space separated list of either variable values, or intervals in the form min..max, or a mix thereof</xs:documentation>
+		</xs:annotation>
+		<xs:list>
+			<xs:simpleType>
+				<xs:union memberTypes="variableValue">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="(\+|-)?(infinity|\d+(\.\d*)?)\.\.(\+|-)?(infinity|\d+(\.\d*)?)"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:union>
+			</xs:simpleType>
+		</xs:list>
+	</xs:simpleType>
+	
+	<xs:simpleType name="identifier">
+		<xs:annotation>
+			<xs:documentation>An identifier (i.e. name of a domain, relation,...) may only contain letters, digits and underscores, and may not start with a digit</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z_]([a-zA-Z\d_])*" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="varID">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="[a-zA-Z_]([a-zA-Z\d_])*" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="domain">
+		<xs:annotation>
+			<xs:documentation>A variable domain</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="domain">
+					<xs:attribute name="name" type="identifier" use="required" />
+					<xs:attribute name="nbValues" type="xs:positiveInteger" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="variables">
+		<xs:annotation>
+			<xs:documentation>The list of variables</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="variable" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="nbVariables" type="xs:nonNegativeInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="variable">
+		<xs:annotation>
+			<xs:documentation>A variable</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="owner" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The name of the agent that owns this variable</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="name" type="varID" use="required" />
+			<xs:attribute name="type" type="xs:string" use="optional" >
+				<xs:annotation>
+					<xs:documentation>A variable may be of type "random"</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="domain" type="identifier" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="relations">
+		<xs:annotation>
+			<xs:documentation>A list of relations that are used to define extensional constraints</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="relation" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="nbRelations" type="xs:nonNegativeInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="weightedTuples">
+		<xs:annotation>
+			<xs:documentation>Weighted tuples must be in a format that looks like the following: 
+utility1 : value1forVar1 value1forVar2 | value2forVar1 value2forVar2 | utility2 : value3forVar1 value3forVar2
+where variable values and utility values can be integer numbers, decimal numbers, or even infinity or -infinity. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:whiteSpace value="collapse"/>
+			<xs:pattern value="(\+|-)?(infinity|\d+(\.\d*)?)\s?:\s?(\+|-)?(infinity|\d+(\.\d*)?)(\s(\+|-)?(infinity|\d+(\.\d*)?))*(\s?\|\s?((\+|-)?(infinity|\d+(\.\d*)?)\s?:\s?)?(\+|-)?(infinity|\d+(\.\d*)?)(\s(\+|-)?(infinity|\d+(\.\d*)?))*)*"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="relation">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="weightedTuples">
+					<xs:attribute name="name" type="identifier" use="required" />
+					<xs:attribute name="defaultCost" type="xs:string" use="optional" >
+						<xs:annotation>
+							<xs:documentation>The cost (or utility) associated with tuples that are not explicitely listed</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="semantics" type="xs:string" use="required" fixed="soft" />
+					<xs:attribute name="nbTuples" type="xs:nonNegativeInteger" use="required" >
+						<xs:annotation>
+							<xs:documentation>Must be equal to the number of tuples explicitely given in the list</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="arity" type="xs:positiveInteger" use="required" >
+						<xs:annotation>
+							<xs:documentation>The number of variables involved</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="probabilities">
+		<xs:annotation>
+			<xs:documentation>A list of probability laws for random variables</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="probability" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="nbProbabilities" type="xs:nonNegativeInteger" use="required" />
+	</xs:complexType>
+	</xs:element>
+
+	<xs:element name="probability">
+		<xs:annotation>
+			<xs:documentation>A probability law for a single random variable (joint probability laws are currently unsupported)</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="weightedTuples">
+					<xs:attribute name="name" type="identifier" use="required" />
+					<xs:attribute name="semantics" type="xs:string" use="required" fixed="soft" />
+					<xs:attribute name="defaultProb" type="xs:float" use="optional" >
+						<xs:annotation>
+							<xs:documentation>The probability associated with tuples that are not explicitely listed</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="nbTuples" type="xs:nonNegativeInteger" use="required" >
+						<xs:annotation>
+							<xs:documentation>Must be equal to the number of tuples explicitely given in the list</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="arity" type="xs:positiveInteger" use="required" fixed="1" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="constraints">
+		<xs:annotation>
+			<xs:documentation>A list of constraints</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="constraint" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="nbConstraints" type="xs:nonNegativeInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="constraint" type="xs:anyType">
+		<xs:annotation>
+			<xs:documentation>A constraint</xs:documentation>
+		</xs:annotation>
+		<xs:alternative test="@reference = 'soft'" type="softConstraint" >
+			<xs:annotation>
+				<xs:documentation>If the constraint's reference is "soft", then its true type must be "softConstraint"</xs:documentation>
+			</xs:annotation>
+		</xs:alternative>
+		<xs:alternative test="@reference = 'global:vehicle_routing'" type="VRPconstraint" >
+			<xs:annotation>
+				<xs:documentation>If the constraint's reference is "global:vehicle_routing", then its true type must be "VRPconstraint"</xs:documentation>
+			</xs:annotation>
+		</xs:alternative>
+	</xs:element>
+	
+	<xs:complexType name="constraint" >
+		<xs:annotation>
+			<xs:documentation>Abstract constraint type</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="name" type="xs:ID" use="required" />
+		<xs:attribute name="scope" use="required">
+			<xs:annotation>
+				<xs:documentation>The whitespace-separated list of variables in the constraint's scope</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:list itemType="xs:IDREF"/>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="arity" type="xs:nonNegativeInteger" use="required" >
+			<xs:annotation>
+				<xs:documentation>The number of variables involved</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:anyAttribute />
+	</xs:complexType>
+	
+	<xs:complexType name="softConstraint">
+		<xs:complexContent>
+			<xs:extension base="constraint">
+				<xs:attribute name="reference" type="identifier" use="required" >
+					<xs:annotation>
+						<xs:documentation>Must refer to the name of an existing relation or probability law</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="VRPconstraint">
+		<xs:complexContent>
+			<xs:extension base="constraint">
+				<xs:sequence>
+					<xs:element name="parameters" >
+						<xs:complexType>
+							<xs:all>
+								<xs:element name="depot" minOccurs="1" >
+									<xs:complexType>
+										<xs:attribute name="nbVehicles" type="xs:positiveInteger" use="required" />
+										<xs:attribute name="maxDist" type="xs:decimal" use="required" />
+										<xs:attribute name="maxLoad" type="xs:positiveInteger" use="required" />
+										<xs:attribute name="xCoordinate" type="xs:decimal" use="required" />
+										<xs:attribute name="yCoordinate" type="xs:decimal" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="customers" minOccurs="1" >
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="customer" minOccurs="0" maxOccurs="unbounded" >
+												<xs:complexType>
+													<xs:attribute name="varName" type="xs:IDREF" >
+														<xs:annotation>
+															<xs:documentation>If varName is absent, it means that this customer can only be served by this depot.</xs:documentation>
+														</xs:annotation>
+													</xs:attribute>
+													<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+													<xs:attribute name="demand" type="xs:positiveInteger" use="required" />
+													<xs:attribute name="xCoordinate" type="xs:decimal" use="required" />
+													<xs:attribute name="yCoordinate" type="xs:decimal" use="required" />
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:all>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="reference" type="xs:string" use="required" fixed="global:vehicle_routing" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

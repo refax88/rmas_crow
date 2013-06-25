@@ -1,0 +1,38 @@
+What we did
+
+1. Created a socket connection between rmas (Java) and the crowd simulator (c++/Windows).
+2. Created a communication protocol using XML strings as messages:
+	a) First message - initial position of the civilians (from rmas to the crowd simulator)
+			<agents>
+				<civilian>
+					<id></id>
+					<position>
+						<x></x>
+						<y></y>
+						<posID></posID>
+					</position>
+				</civilian>
+			...
+			</agents>
+	b) Second message - request of next position (from rmas to the crowd simulator)
+			<request>civInfo</request>
+	c) Third message - next position (from the crowd simulator to rmas)
+			<civilians>
+				<civilian>
+					<id></id>
+					<x></x>
+					<y></y>
+					<vx></vx>
+					<vy></vy>
+				<civilian>
+				...
+			<civilians>					
+3. Adapted the crowd simulator to use the messages from rmas as input and rmas to receive messages from the crowdsimulator and to use them as the next position for the civilians
+4. Made the civilians move synchronously in both rmas and the crowd simulator.
+
+To do list
+1. Make the code more modular.
+2. In the crowd simulator, compute the BFS path for the civilians in CUDA instead of C++.
+3. Make the crowd simulator compute the next step for all agents (sending their path) and not just the civilians (write a new CUDA function).
+4. Create a world model for the crowd simulator in order to keep the map updated.
+5. Documentation

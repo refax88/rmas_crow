@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/63/trunk/jmaxsum/nbproject/configs
+END
+instanceToData.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/51/trunk/jmaxsum/nbproject/configs/instanceToData.properties
+END
+PowerGridCreator.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/trunk/jmaxsum/nbproject/configs/PowerGridCreator.properties
+END
+Walkgrid.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/63/trunk/jmaxsum/nbproject/configs/Walkgrid.properties
+END
+SARecycler.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/57/trunk/jmaxsum/nbproject/configs/SARecycler.properties
+END
+Mercuzio.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/51/trunk/jmaxsum/nbproject/configs/Mercuzio.properties
+END
+PGSolve.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/51/trunk/jmaxsum/nbproject/configs/PGSolve.properties
+END

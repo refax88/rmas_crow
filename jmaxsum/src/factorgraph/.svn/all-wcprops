@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/67/trunk/jmaxsum/src/factorgraph
+END
+FactorGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/67/trunk/jmaxsum/src/factorgraph/FactorGraph.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/17/trunk/jmaxsum/src/factorgraph/package-info.java
+END
+Edge.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/18/trunk/jmaxsum/src/factorgraph/Edge.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12/trunk/jmaxsum/src/factorgraph/Node.java
+END
+NodeArgument.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/18/trunk/jmaxsum/src/factorgraph/NodeArgument.java
+END
+NodeVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60/trunk/jmaxsum/src/factorgraph/NodeVariable.java
+END
+NodeFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/49/trunk/jmaxsum/src/factorgraph/NodeFunction.java
+END

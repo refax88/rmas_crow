@@ -1,0 +1,42 @@
+<instance>  
+  <presentation name="sampleProblem" maxConstraintArity="3"  
+                maximize="true" format="XCSP 2.1_FRODO" />  
+ 
+  <domains nbDomains="1">  
+    <domain name="targets" nbValues="6">1..6</domain>  
+  </domains>  
+ 
+  <variables nbVariables="3">  
+    <variable name="X" domain="targets" owner="agentX" />  
+    <variable name="Y" domain="targets" owner="agentY" />  
+    <variable name="Z" domain="targets" owner="agentZ" />  
+  </variables>  
+ 
+  <relations nbRelations="5">  
+    <relation name="agentX_utility" arity="1" nbTuples="6" semantics="soft" defaultCost="0">  
+      0: 1|3: 2|2: 3|1: 4|1: 5|1: 6  
+    </relation>  
+    <relation name="agentY_utility" arity="1" nbTuples="6" semantics="soft" defaultCost="0">  
+      0: 1|2: 2|1: 3|1: 4|1: 5|1: 6  
+    </relation>  
+    <relation name="agentZ_utility" arity="1" nbTuples="6" semantics="soft" defaultCost="0">  
+      0: 1|3: 2|1: 3|1: 4|1: 5|1: 6  
+    </relation>  
+    <relation name="2_agent_conflict" arity="2" nbTuples="4" semantics="soft" defaultCost="0">  
+      -infinity: 3 3|4 4|5 5|6 6  
+    </relation>  
+    <relation name="3_agent_conflict" arity="3" nbTuples="1" semantics="soft" defaultCost="0">  
+      -infinity: 2 2 2
+    </relation>  
+  </relations>  
+ 
+  <constraints nbConstraints="7">  
+    <constraint name="agentX only one target" arity="1" scope="X" reference="agentX_utility" />  
+    <constraint name="agentY only one target" arity="1" scope="Y" reference="agentY_utility" />  
+    <constraint name="agentZ only one target" arity="1" scope="Z" reference="agentZ_utility" />  
+    <constraint name="X_and_Y_have_different_targets" arity="2" scope="X Y" reference="2_agent_conflict" />  
+    <constraint name="X_and_Z_have_different_targets" arity="2" scope="X Z" reference="2_agent_conflict" />  
+    <constraint name="Y_and_Z_have_different_targets" arity="2" scope="Y Z" reference="2_agent_conflict" />  
+    <constraint name="X_and_Y_and_Z_have_different_targets" arity="3" scope="X Y Z" reference="3_agent_conflict" />  
+  </constraints>  
+</instance> 

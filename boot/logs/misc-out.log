@@ -1,0 +1,1845 @@
+TRACE launcher : Reading included config 'common.cfg'
+TRACE launcher : Reading included config 'types.cfg'
+TRACE launcher : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE launcher : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE launcher : Setting 'random.seed' to '1'
+TRACE launcher : Setting 'kernel.host' to 'localhost'
+TRACE launcher : Setting 'kernel.port' to '7000'
+TRACE launcher : Setting 'misc.buriedness.wood.none.value' to '0'
+TRACE launcher : Setting 'misc.buriedness.wood.partial.value' to '20'
+TRACE launcher : Setting 'misc.buriedness.wood.half.value' to '30'
+TRACE launcher : Setting 'misc.buriedness.wood.all.value' to '60'
+TRACE launcher : Setting 'misc.buriedness.steel.none.value' to '0'
+TRACE launcher : Setting 'misc.buriedness.steel.partial.value' to '20'
+TRACE launcher : Setting 'misc.buriedness.steel.half.value' to '35'
+TRACE launcher : Setting 'misc.buriedness.steel.all.value' to '70'
+TRACE launcher : Setting 'misc.buriedness.concrete.none.value' to '0'
+TRACE launcher : Setting 'misc.buriedness.concrete.partial.value' to '35'
+TRACE launcher : Setting 'misc.buriedness.concrete.half.value' to '60'
+TRACE launcher : Setting 'misc.buriedness.concrete.all.value' to '80'
+TRACE launcher : Setting 'misc.buriedness.wood.none.rate' to '0'
+TRACE launcher : Setting 'misc.buriedness.wood.partial.rate' to '1'
+TRACE launcher : Setting 'misc.buriedness.wood.half.rate' to '1'
+TRACE launcher : Setting 'misc.buriedness.wood.all.rate' to '1'
+TRACE launcher : Setting 'misc.buriedness.steel.none.rate' to '0'
+TRACE launcher : Setting 'misc.buriedness.steel.partial.rate' to '0.008'
+TRACE launcher : Setting 'misc.buriedness.steel.half.rate' to '0.008'
+TRACE launcher : Setting 'misc.buriedness.steel.all.rate' to '0.008'
+TRACE launcher : Setting 'misc.buriedness.concrete.none.rate' to '0'
+TRACE launcher : Setting 'misc.buriedness.concrete.partial.rate' to '0.008'
+TRACE launcher : Setting 'misc.buriedness.concrete.half.rate' to '0.008'
+TRACE launcher : Setting 'misc.buriedness.concrete.all.rate' to '0.008'
+TRACE launcher : Setting 'misc.injury.collapse.wood.none.slight' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.wood.none.serious' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.wood.none.critical' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.wood.partial.slight' to '0.5'
+TRACE launcher : Setting 'misc.injury.collapse.wood.partial.serious' to '0.3'
+TRACE launcher : Setting 'misc.injury.collapse.wood.partial.critical' to '0.02'
+TRACE launcher : Setting 'misc.injury.collapse.wood.half.slight' to '0.5'
+TRACE launcher : Setting 'misc.injury.collapse.wood.half.serious' to '0.3'
+TRACE launcher : Setting 'misc.injury.collapse.wood.half.critical' to '0.02'
+TRACE launcher : Setting 'misc.injury.collapse.wood.all.slight' to '0.5'
+TRACE launcher : Setting 'misc.injury.collapse.wood.all.serious' to '0.3'
+TRACE launcher : Setting 'misc.injury.collapse.wood.all.critical' to '0.02'
+TRACE launcher : Setting 'misc.injury.collapse.steel.none.slight' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.steel.none.serious' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.steel.none.critical' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.steel.partial.slight' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.steel.partial.serious' to '0.03'
+TRACE launcher : Setting 'misc.injury.collapse.steel.partial.critical' to '0.005'
+TRACE launcher : Setting 'misc.injury.collapse.steel.half.slight' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.steel.half.serious' to '0.03'
+TRACE launcher : Setting 'misc.injury.collapse.steel.half.critical' to '0.005'
+TRACE launcher : Setting 'misc.injury.collapse.steel.all.slight' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.steel.all.serious' to '0.03'
+TRACE launcher : Setting 'misc.injury.collapse.steel.all.critical' to '0.005'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.none.slight' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.none.serious' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.none.critical' to '0'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.partial.slight' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.partial.serious' to '0.03'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.partial.critical' to '0.005'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.half.slight' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.half.serious' to '0.03'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.half.critical' to '0.005'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.all.slight' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.all.serious' to '0.03'
+TRACE launcher : Setting 'misc.injury.collapse.concrete.all.critical' to '0.005'
+TRACE launcher : Setting 'misc.injury.collapse.slight' to '2'
+TRACE launcher : Setting 'misc.injury.collapse.serious' to '10'
+TRACE launcher : Setting 'misc.injury.collapse.critical' to '10000'
+TRACE launcher : Setting 'misc.injury.collapse.multiplier.ambulance' to '0.2'
+TRACE launcher : Setting 'misc.injury.collapse.multiplier.police' to '0.2'
+TRACE launcher : Setting 'misc.injury.collapse.multiplier.fire' to '0.2'
+TRACE launcher : Setting 'misc.injury.bury.wood.none.slight' to '0'
+TRACE launcher : Setting 'misc.injury.bury.wood.none.serious' to '0'
+TRACE launcher : Setting 'misc.injury.bury.wood.none.critical' to '0'
+TRACE launcher : Setting 'misc.injury.bury.wood.partial.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.wood.partial.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.wood.partial.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.wood.half.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.wood.half.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.wood.half.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.wood.all.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.wood.all.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.wood.all.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.steel.none.slight' to '0'
+TRACE launcher : Setting 'misc.injury.bury.steel.none.serious' to '0'
+TRACE launcher : Setting 'misc.injury.bury.steel.none.critical' to '0'
+TRACE launcher : Setting 'misc.injury.bury.steel.partial.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.steel.partial.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.steel.partial.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.steel.half.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.steel.half.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.steel.half.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.steel.all.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.steel.all.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.steel.all.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.concrete.none.slight' to '0'
+TRACE launcher : Setting 'misc.injury.bury.concrete.none.serious' to '0'
+TRACE launcher : Setting 'misc.injury.bury.concrete.none.critical' to '0'
+TRACE launcher : Setting 'misc.injury.bury.concrete.partial.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.concrete.partial.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.concrete.partial.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.concrete.half.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.concrete.half.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.concrete.half.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.concrete.all.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.bury.concrete.all.serious' to '0.5'
+TRACE launcher : Setting 'misc.injury.bury.concrete.all.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.slight' to '3'
+TRACE launcher : Setting 'misc.injury.bury.serious' to '15'
+TRACE launcher : Setting 'misc.injury.bury.critical' to '100'
+TRACE launcher : Setting 'misc.injury.bury.multiplier.ambulance' to '0.2'
+TRACE launcher : Setting 'misc.injury.bury.multiplier.police' to '0.2'
+TRACE launcher : Setting 'misc.injury.bury.multiplier.fire' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.wood.none.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.wood.none.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.wood.none.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.wood.partial.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.wood.partial.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.wood.partial.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.wood.half.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.wood.half.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.wood.half.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.wood.all.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.wood.all.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.wood.all.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.steel.none.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.steel.none.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.steel.none.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.steel.partial.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.steel.partial.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.steel.partial.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.steel.half.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.steel.half.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.steel.half.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.steel.all.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.steel.all.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.steel.all.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.concrete.none.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.concrete.none.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.concrete.none.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.concrete.partial.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.concrete.partial.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.concrete.partial.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.concrete.half.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.concrete.half.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.concrete.half.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.concrete.all.slight' to '0.4'
+TRACE launcher : Setting 'misc.injury.fire.concrete.all.serious' to '0.2'
+TRACE launcher : Setting 'misc.injury.fire.concrete.all.critical' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.slight' to '5'
+TRACE launcher : Setting 'misc.injury.fire.serious' to '20'
+TRACE launcher : Setting 'misc.injury.fire.critical' to '100'
+TRACE launcher : Setting 'misc.injury.fire.multiplier.ambulance' to '1'
+TRACE launcher : Setting 'misc.injury.fire.multiplier.police' to '1'
+TRACE launcher : Setting 'misc.injury.fire.multiplier.fire' to '0.2'
+TRACE launcher : Setting 'misc.injury.collapse.k' to '0.00025'
+TRACE launcher : Setting 'misc.injury.collapse.l' to '0.01'
+TRACE launcher : Setting 'misc.injury.collapse.noise.mean' to '0.1'
+TRACE launcher : Setting 'misc.injury.collapse.noise.sd' to '0.01'
+TRACE launcher : Setting 'misc.injury.bury.k' to '0.000035'
+TRACE launcher : Setting 'misc.injury.bury.l' to '0.01'
+TRACE launcher : Setting 'misc.injury.bury.noise.mean' to '0.1'
+TRACE launcher : Setting 'misc.injury.bury.noise.sd' to '0.01'
+TRACE launcher : Setting 'misc.injury.fire.k' to '0.00025'
+TRACE launcher : Setting 'misc.injury.fire.l' to '0.03'
+TRACE launcher : Setting 'misc.injury.fire.noise.mean' to '0.1'
+TRACE launcher : Setting 'misc.injury.fire.noise.sd' to '0.01'
+INFO launcher : Processing jar directory: /Users/riccardoreffato/Desktop/rmas_exp/boot/../jars
+INFO launcher : Processing ../jars/clear.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/collapse.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/gis2.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/handy.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/human.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/ignition.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/kernel.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/maps.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/misc.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/resq-fire.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Processing ../jars/sample.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+WARN launcher : Class sample.CustomRegistryTestAgent$CustomEntityFactory not found
+INFO launcher : Processing ../jars/standard.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO launcher : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO launcher : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO launcher : Processing ../jars/traffic3.jar
+DEBUG launcher : Inspecting manifest...
+DEBUG launcher : Looking for likely class names...
+INFO launcher : Launching 1 instances of component 'misc.MiscSimulator'...
+INFO launcher : Launching instance 1...
+DEBUG misc.MiscSimulator : Starting Connection from misc.MiscSimulator. Registry: System
+DEBUG misc.MiscSimulator : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG misc.MiscSimulator : Using seed 1
+TRACE misc.MiscSimulator : Trying to find a SeedGenerator constructor
+TRACE misc.MiscSimulator : Success
+INFO misc.MiscSimulator : misc.MiscSimulator@688d9b8 connected
+DEBUG misc.MiscSimulator : Re-indexing world model
+DEBUG misc.MiscSimulator : Finished re-index. Took 771ms
+INFO misc.MiscSimulator : MiscSimulator connected. World has 5288 entities.
+INFO launcher : success
+INFO misc.MiscSimulator : Timestep 1
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 1
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 1 took 115 ms
+INFO misc.MiscSimulator : Timestep 2
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 2
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 2 took 29 ms
+INFO misc.MiscSimulator : Timestep 3
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 3
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 3 took 15 ms
+INFO misc.MiscSimulator : Timestep 4
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 4
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 4 took 31 ms
+INFO misc.MiscSimulator : Timestep 5
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 5
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 5 took 8 ms
+INFO misc.MiscSimulator : Timestep 6
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 6
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 6 took 27 ms
+INFO misc.MiscSimulator : Timestep 7
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 7
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 7 took 6 ms
+INFO misc.MiscSimulator : Timestep 8
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 8
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 8 took 26 ms
+INFO misc.MiscSimulator : Timestep 9
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 9
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 9 took 5 ms
+INFO misc.MiscSimulator : Timestep 10
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 10
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 10 took 4 ms
+INFO misc.MiscSimulator : Timestep 11
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 11
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 11 took 3 ms
+INFO misc.MiscSimulator : Timestep 12
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 12
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 12 took 4 ms
+INFO misc.MiscSimulator : Timestep 13
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 13
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 13 took 4 ms
+INFO misc.MiscSimulator : Timestep 14
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 14
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 14 took 5 ms
+INFO misc.MiscSimulator : Timestep 15
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 15
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 15 took 17 ms
+INFO misc.MiscSimulator : Timestep 16
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 16
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 16 took 8 ms
+INFO misc.MiscSimulator : Timestep 17
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 17
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 17 took 3 ms
+INFO misc.MiscSimulator : Timestep 18
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 18
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 18 took 1 ms
+INFO misc.MiscSimulator : Timestep 19
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 19
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 19 took 2 ms
+INFO misc.MiscSimulator : Timestep 20
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 20
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 20 took 1 ms
+INFO misc.MiscSimulator : Timestep 21
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 21
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 21 took 1 ms
+INFO misc.MiscSimulator : Timestep 22
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 22
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 22 took 1 ms
+INFO misc.MiscSimulator : Timestep 23
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 23
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 23 took 1 ms
+INFO misc.MiscSimulator : Timestep 24
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 24
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 24 took 1 ms
+INFO misc.MiscSimulator : Timestep 25
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 25
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 25 took 1 ms
+INFO misc.MiscSimulator : Timestep 26
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 26
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 26 took 1 ms
+INFO misc.MiscSimulator : Timestep 27
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 27
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 27 took 12 ms
+INFO misc.MiscSimulator : Timestep 28
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 28
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 28 took 1 ms
+INFO misc.MiscSimulator : Timestep 29
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 29
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 29 took 2 ms
+INFO misc.MiscSimulator : Timestep 30
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 30
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 30 took 1 ms
+INFO misc.MiscSimulator : Timestep 31
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 31
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 31 took 6 ms
+INFO misc.MiscSimulator : Timestep 32
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 32
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 32 took 2 ms
+INFO misc.MiscSimulator : Timestep 33
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 33
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 33 took 2 ms
+INFO misc.MiscSimulator : Timestep 34
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 34
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 34 took 2 ms
+INFO misc.MiscSimulator : Timestep 35
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 35
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 35 took 1 ms
+INFO misc.MiscSimulator : Timestep 36
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 36
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 36 took 1 ms
+INFO misc.MiscSimulator : Timestep 37
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 37
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 37 took 1 ms
+INFO misc.MiscSimulator : Timestep 38
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 38
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 38 took 2 ms
+INFO misc.MiscSimulator : Timestep 39
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 39
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 39 took 2 ms
+INFO misc.MiscSimulator : Timestep 40
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 40
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 40 took 2 ms
+INFO misc.MiscSimulator : Timestep 41
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 41
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 41 took 2 ms
+INFO misc.MiscSimulator : Timestep 42
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 42
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 42 took 1 ms
+INFO misc.MiscSimulator : Timestep 43
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 43
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 43 took 1 ms
+INFO misc.MiscSimulator : Timestep 44
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 44
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 44 took 2 ms
+INFO misc.MiscSimulator : Timestep 45
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 45
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 45 took 1 ms
+INFO misc.MiscSimulator : Timestep 46
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 46
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 46 took 5 ms
+INFO misc.MiscSimulator : Timestep 47
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 47
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 47 took 1 ms
+INFO misc.MiscSimulator : Timestep 48
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 48
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 48 took 2 ms
+INFO misc.MiscSimulator : Timestep 49
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 49
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 49 took 1 ms
+INFO misc.MiscSimulator : Timestep 50
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 50
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 50 took 3 ms
+INFO misc.MiscSimulator : Timestep 51
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 51
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 51 took 1 ms
+INFO misc.MiscSimulator : Timestep 52
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 52
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 52 took 6 ms
+INFO misc.MiscSimulator : Timestep 53
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 53
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 53 took 1 ms
+INFO misc.MiscSimulator : Timestep 54
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 54
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 54 took 1 ms
+INFO misc.MiscSimulator : Timestep 55
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 55
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 55 took 1 ms
+INFO misc.MiscSimulator : Timestep 56
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 56
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 56 took 1 ms
+INFO misc.MiscSimulator : Timestep 57
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 57
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 57 took 1 ms
+INFO misc.MiscSimulator : Timestep 58
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 58
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 58 took 1 ms
+INFO misc.MiscSimulator : Timestep 59
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 59
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 59 took 5 ms
+INFO misc.MiscSimulator : Timestep 60
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 60
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 60 took 2 ms
+INFO misc.MiscSimulator : Timestep 61
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 61
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 61 took 2 ms
+INFO misc.MiscSimulator : Timestep 62
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 62
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 62 took 1 ms
+INFO misc.MiscSimulator : Timestep 63
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 63
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 63 took 1 ms
+INFO misc.MiscSimulator : Timestep 64
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 64
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 64 took 1 ms
+INFO misc.MiscSimulator : Timestep 65
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 65
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 65 took 2 ms
+INFO misc.MiscSimulator : Timestep 66
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 66
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 66 took 1 ms
+INFO misc.MiscSimulator : Timestep 67
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 67
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 67 took 2 ms
+INFO misc.MiscSimulator : Timestep 68
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 68
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 68 took 3 ms
+INFO misc.MiscSimulator : Timestep 69
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 69
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 69 took 6 ms
+INFO misc.MiscSimulator : Timestep 70
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 70
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 70 took 6 ms
+INFO misc.MiscSimulator : Timestep 71
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 71
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 71 took 2 ms
+INFO misc.MiscSimulator : Timestep 72
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 72
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 72 took 1 ms
+INFO misc.MiscSimulator : Timestep 73
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 73
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 73 took 2 ms
+INFO misc.MiscSimulator : Timestep 74
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 74
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 74 took 1 ms
+INFO misc.MiscSimulator : Timestep 75
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 75
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 75 took 1 ms
+INFO misc.MiscSimulator : Timestep 76
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 76
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 76 took 1 ms
+INFO misc.MiscSimulator : Timestep 77
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 77
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 77 took 1 ms
+INFO misc.MiscSimulator : Timestep 78
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 78
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 78 took 17 ms
+INFO misc.MiscSimulator : Timestep 79
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 79
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 79 took 2 ms
+INFO misc.MiscSimulator : Timestep 80
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 80
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 80 took 2 ms
+INFO misc.MiscSimulator : Timestep 81
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 81
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 81 took 3 ms
+INFO misc.MiscSimulator : Timestep 82
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 82
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 82 took 2 ms
+INFO misc.MiscSimulator : Timestep 83
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 83
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 83 took 2 ms
+INFO misc.MiscSimulator : Timestep 84
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 84
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 84 took 2 ms
+INFO misc.MiscSimulator : Timestep 85
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 85
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 85 took 1 ms
+INFO misc.MiscSimulator : Timestep 86
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 86
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 86 took 1 ms
+INFO misc.MiscSimulator : Timestep 87
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 87
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 87 took 1 ms
+INFO misc.MiscSimulator : Timestep 88
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 88
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 88 took 1 ms
+INFO misc.MiscSimulator : Timestep 89
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 89
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 89 took 1 ms
+INFO misc.MiscSimulator : Timestep 90
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 90
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 90 took 5 ms
+INFO misc.MiscSimulator : Timestep 91
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 91
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 91 took 1 ms
+INFO misc.MiscSimulator : Timestep 92
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 92
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 92 took 1 ms
+INFO misc.MiscSimulator : Timestep 93
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 93
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 93 took 2 ms
+INFO misc.MiscSimulator : Timestep 94
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 94
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 94 took 1 ms
+INFO misc.MiscSimulator : Timestep 95
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 95
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 95 took 9 ms
+INFO misc.MiscSimulator : Timestep 96
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 96
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 96 took 2 ms
+INFO misc.MiscSimulator : Timestep 97
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 97
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 97 took 4 ms
+INFO misc.MiscSimulator : Timestep 98
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 98
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 98 took 1 ms
+INFO misc.MiscSimulator : Timestep 99
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 99
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 99 took 1 ms
+INFO misc.MiscSimulator : Timestep 100
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 100
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 100 took 1 ms
+INFO misc.MiscSimulator : Timestep 101
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 101
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 101 took 5 ms
+INFO misc.MiscSimulator : Timestep 102
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 102
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 102 took 1 ms
+INFO misc.MiscSimulator : Timestep 103
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 103
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 103 took 1 ms
+INFO misc.MiscSimulator : Timestep 104
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 104
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 104 took 1 ms
+INFO misc.MiscSimulator : Timestep 105
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 105
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 105 took 4 ms
+INFO misc.MiscSimulator : Timestep 106
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 106
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 106 took 1 ms
+INFO misc.MiscSimulator : Timestep 107
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 107
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 107 took 4 ms
+INFO misc.MiscSimulator : Timestep 108
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 108
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 108 took 1 ms
+INFO misc.MiscSimulator : Timestep 109
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 109
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 109 took 1 ms
+INFO misc.MiscSimulator : Timestep 110
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 110
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 110 took 1 ms
+INFO misc.MiscSimulator : Timestep 111
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 111
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 111 took 1 ms
+INFO misc.MiscSimulator : Timestep 112
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 112
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 112 took 1 ms
+INFO misc.MiscSimulator : Timestep 113
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 113
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 113 took 1 ms
+INFO misc.MiscSimulator : Timestep 114
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 114
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 114 took 1 ms
+INFO misc.MiscSimulator : Timestep 115
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 115
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 115 took 1 ms
+INFO misc.MiscSimulator : Timestep 116
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 116
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9995 |      5 |    0,000 |    0,000 |    5,137 |      0
+
+INFO misc.MiscSimulator : Timestep 116 took 27 ms
+INFO misc.MiscSimulator : Timestep 117
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 117
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9985 |     10 |    0,000 |    0,000 |   10,290 |      0
+
+INFO misc.MiscSimulator : Timestep 117 took 19 ms
+INFO misc.MiscSimulator : Timestep 118
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 118
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9975 |     10 |    0,000 |    0,000 |   10,450 |      0
+
+INFO misc.MiscSimulator : Timestep 118 took 2 ms
+INFO misc.MiscSimulator : Timestep 119
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 119
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9964 |     11 |    0,000 |    0,000 |   10,594 |      0
+
+INFO misc.MiscSimulator : Timestep 119 took 2 ms
+INFO misc.MiscSimulator : Timestep 120
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 120
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9953 |     11 |    0,000 |    0,000 |   10,757 |      0
+
+INFO misc.MiscSimulator : Timestep 120 took 4 ms
+INFO misc.MiscSimulator : Timestep 121
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 121
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9922 |     31 |    0,000 |    0,000 |   31,151 |      0
+
+INFO misc.MiscSimulator : Timestep 121 took 2 ms
+INFO misc.MiscSimulator : Timestep 122
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 122
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9890 |     32 |    0,000 |    0,000 |   31,504 |      0
+
+INFO misc.MiscSimulator : Timestep 122 took 2 ms
+INFO misc.MiscSimulator : Timestep 123
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 123
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9853 |     37 |    0,000 |    0,000 |   36,970 |      0
+
+INFO misc.MiscSimulator : Timestep 123 took 2 ms
+INFO misc.MiscSimulator : Timestep 124
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 124
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9810 |     43 |    0,000 |    0,000 |   42,551 |      0
+
+INFO misc.MiscSimulator : Timestep 124 took 11 ms
+INFO misc.MiscSimulator : Timestep 125
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 125
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9746 |     64 |    0,000 |    0,000 |   63,661 |      0
+
+INFO misc.MiscSimulator : Timestep 125 took 2 ms
+INFO misc.MiscSimulator : Timestep 126
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 126
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9681 |     65 |    0,000 |    0,000 |   64,803 |      0
+
+INFO misc.MiscSimulator : Timestep 126 took 1 ms
+INFO misc.MiscSimulator : Timestep 127
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 127
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9610 |     71 |    0,000 |    0,000 |   71,147 |      0
+
+INFO misc.MiscSimulator : Timestep 127 took 2 ms
+INFO misc.MiscSimulator : Timestep 128
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 128
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9532 |     78 |    0,000 |    0,000 |   77,739 |      0
+
+INFO misc.MiscSimulator : Timestep 128 took 2 ms
+INFO misc.MiscSimulator : Timestep 129
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 129
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9432 |    100 |    0,000 |    0,000 |  100,259 |      0
+
+INFO misc.MiscSimulator : Timestep 129 took 1 ms
+INFO misc.MiscSimulator : Timestep 130
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 130
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9308 |    124 |    0,000 |    0,000 |  124,010 |      0
+
+INFO misc.MiscSimulator : Timestep 130 took 5 ms
+INFO misc.MiscSimulator : Timestep 131
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 131
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   9071 |    237 |    0,000 |    0,000 |  236,679 |      0
+
+INFO misc.MiscSimulator : Timestep 131 took 1 ms
+INFO misc.MiscSimulator : Timestep 132
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 132
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   8820 |    251 |    0,000 |    0,000 |  250,830 |      0
+
+INFO misc.MiscSimulator : Timestep 132 took 4 ms
+INFO misc.MiscSimulator : Timestep 133
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 133
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   8548 |    272 |    0,000 |    0,000 |  272,320 |      0
+
+INFO misc.MiscSimulator : Timestep 133 took 2 ms
+INFO misc.MiscSimulator : Timestep 134
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 134
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   8257 |    291 |    0,000 |    0,000 |  290,998 |      0
+
+INFO misc.MiscSimulator : Timestep 134 took 2 ms
+INFO misc.MiscSimulator : Timestep 135
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 135
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   7939 |    318 |    0,000 |    0,000 |  318,038 |      0
+
+INFO misc.MiscSimulator : Timestep 135 took 2 ms
+INFO misc.MiscSimulator : Timestep 136
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 136
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   7477 |    462 |    0,000 |    0,000 |  461,854 |      0
+
+INFO misc.MiscSimulator : Timestep 136 took 2 ms
+INFO misc.MiscSimulator : Timestep 137
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 137
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   6956 |    521 |    0,000 |    0,000 |  521,482 |      0
+
+INFO misc.MiscSimulator : Timestep 137 took 4 ms
+INFO misc.MiscSimulator : Timestep 138
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 138
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   6366 |    590 |    0,000 |    0,000 |  589,604 |      0
+
+INFO misc.MiscSimulator : Timestep 138 took 1 ms
+INFO misc.MiscSimulator : Timestep 139
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 139
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   5683 |    683 |    0,000 |    0,000 |  683,118 |      0
+
+INFO misc.MiscSimulator : Timestep 139 took 2 ms
+INFO misc.MiscSimulator : Timestep 140
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 140
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   4876 |    807 |    0,000 |    0,000 |  806,630 |      0
+
+INFO misc.MiscSimulator : Timestep 140 took 1 ms
+INFO misc.MiscSimulator : Timestep 141
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 141
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   3900 |    976 |    0,000 |    0,000 |  976,435 |      0
+
+INFO misc.MiscSimulator : Timestep 141 took 1 ms
+INFO misc.MiscSimulator : Timestep 142
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 142
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   2678 |   1222 |    0,000 |    0,000 | 1222,365 |      0
+
+INFO misc.MiscSimulator : Timestep 142 took 2 ms
+INFO misc.MiscSimulator : Timestep 143
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 143
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65242 |   1082 |   1596 |    0,000 |    0,000 | 1596,027 |      0
+
+INFO misc.MiscSimulator : Timestep 143 took 1 ms
+INFO misc.MiscSimulator : Timestep 144
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 144
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 144 took 1 ms
+INFO misc.MiscSimulator : Timestep 145
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 145
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 145 took 2 ms
+INFO misc.MiscSimulator : Timestep 146
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 146
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 146 took 2 ms
+INFO misc.MiscSimulator : Timestep 147
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 147
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 147 took 2 ms
+INFO misc.MiscSimulator : Timestep 148
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 148
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 148 took 1 ms
+INFO misc.MiscSimulator : Timestep 149
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 149
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 149 took 1 ms
+INFO misc.MiscSimulator : Timestep 150
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 150
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 150 took 1 ms
+INFO misc.MiscSimulator : Timestep 151
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 151
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 151 took 8 ms
+INFO misc.MiscSimulator : Timestep 152
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 152
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 152 took 1 ms
+INFO misc.MiscSimulator : Timestep 153
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 153
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 153 took 5 ms
+INFO misc.MiscSimulator : Timestep 154
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 154
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 154 took 5 ms
+INFO misc.MiscSimulator : Timestep 155
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 155
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 155 took 2 ms
+INFO misc.MiscSimulator : Timestep 156
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 156
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 156 took 1 ms
+INFO misc.MiscSimulator : Timestep 157
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 157
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 157 took 1 ms
+INFO misc.MiscSimulator : Timestep 158
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 158
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 158 took 1 ms
+INFO misc.MiscSimulator : Timestep 159
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 159
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 159 took 1 ms
+INFO misc.MiscSimulator : Timestep 160
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 160
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 160 took 1 ms
+INFO misc.MiscSimulator : Timestep 161
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 161
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 161 took 3 ms
+INFO misc.MiscSimulator : Timestep 162
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 162
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 162 took 2 ms
+INFO misc.MiscSimulator : Timestep 163
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 163
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 163 took 1 ms
+INFO misc.MiscSimulator : Timestep 164
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 164
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 164 took 1 ms
+INFO misc.MiscSimulator : Timestep 165
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 165
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 165 took 2 ms
+INFO misc.MiscSimulator : Timestep 166
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 166
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 166 took 1 ms
+INFO misc.MiscSimulator : Timestep 167
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 167
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 167 took 1 ms
+INFO misc.MiscSimulator : Timestep 168
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 168
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 168 took 1 ms
+INFO misc.MiscSimulator : Timestep 169
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 169
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 169 took 1 ms
+INFO misc.MiscSimulator : Timestep 170
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 170
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9995 |      5 |    0,000 |    0,000 |    5,127 |      0
+
+INFO misc.MiscSimulator : Timestep 170 took 3 ms
+INFO misc.MiscSimulator : Timestep 171
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 171
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9985 |     10 |    0,000 |    0,000 |   10,262 |      0
+
+INFO misc.MiscSimulator : Timestep 171 took 7 ms
+INFO misc.MiscSimulator : Timestep 172
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 172
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9970 |     15 |    0,000 |    0,000 |   15,457 |      0
+
+INFO misc.MiscSimulator : Timestep 172 took 1 ms
+INFO misc.MiscSimulator : Timestep 173
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 173
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9934 |     36 |    0,000 |    0,000 |   35,904 |      0
+
+INFO misc.MiscSimulator : Timestep 173 took 2 ms
+INFO misc.MiscSimulator : Timestep 174
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 174
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9898 |     36 |    0,000 |    0,000 |   36,360 |      0
+
+INFO misc.MiscSimulator : Timestep 174 took 1 ms
+INFO misc.MiscSimulator : Timestep 175
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 175
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9856 |     42 |    0,000 |    0,000 |   41,912 |      0
+
+INFO misc.MiscSimulator : Timestep 175 took 2 ms
+INFO misc.MiscSimulator : Timestep 176
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 176
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9808 |     48 |    0,000 |    0,000 |   47,596 |      0
+
+INFO misc.MiscSimulator : Timestep 176 took 1 ms
+INFO misc.MiscSimulator : Timestep 177
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 177
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9755 |     53 |    0,000 |    0,000 |   53,424 |      0
+
+INFO misc.MiscSimulator : Timestep 177 took 1 ms
+INFO misc.MiscSimulator : Timestep 178
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 178
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9701 |     54 |    0,000 |    0,000 |   54,256 |      0
+
+INFO misc.MiscSimulator : Timestep 178 took 2 ms
+INFO misc.MiscSimulator : Timestep 179
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 179
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9646 |     55 |    0,000 |    0,000 |   55,119 |      0
+
+INFO misc.MiscSimulator : Timestep 179 took 2 ms
+INFO misc.MiscSimulator : Timestep 180
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 180
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65399 |   9590 |     56 |    0,000 |    0,000 |   56,000 |      0
+
+INFO misc.MiscSimulator : Timestep 180 took 2 ms
+INFO misc.MiscSimulator : Timestep 181
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 181
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9995 |      5 |    0,000 |    0,000 |    5,119 |      0
+    65399 |   9533 |     57 |    0,000 |    0,000 |   56,916 |      0
+
+INFO misc.MiscSimulator : Timestep 181 took 4 ms
+INFO misc.MiscSimulator : Timestep 182
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 182
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9970 |     25 |    0,000 |    0,000 |   25,407 |      0
+    65399 |   9470 |     63 |    0,000 |    0,000 |   63,004 |      0
+
+INFO misc.MiscSimulator : Timestep 182 took 8 ms
+INFO misc.MiscSimulator : Timestep 183
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 183
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9939 |     31 |    0,000 |    0,000 |   30,775 |      0
+    65399 |   9401 |     69 |    0,000 |    0,000 |   69,304 |      0
+
+INFO misc.MiscSimulator : Timestep 183 took 7 ms
+INFO misc.MiscSimulator : Timestep 184
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 184
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9903 |     36 |    0,000 |    0,000 |   36,233 |      0
+    65399 |   9325 |     76 |    0,000 |    0,000 |   75,811 |      0
+
+INFO misc.MiscSimulator : Timestep 184 took 2 ms
+INFO misc.MiscSimulator : Timestep 185
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 185
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9861 |     42 |    0,000 |    0,000 |   41,779 |      0
+    65399 |   9248 |     77 |    0,000 |    0,000 |   77,382 |      0
+
+INFO misc.MiscSimulator : Timestep 185 took 2 ms
+INFO misc.MiscSimulator : Timestep 186
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 186
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9819 |     42 |    0,000 |    0,000 |   42,351 |      0
+    65399 |   9169 |     79 |    0,000 |    0,000 |   79,006 |      0
+
+INFO misc.MiscSimulator : Timestep 186 took 2 ms
+INFO misc.MiscSimulator : Timestep 187
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 187
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9771 |     48 |    0,000 |    0,000 |   48,034 |      0
+    65399 |   9083 |     86 |    0,000 |    0,000 |   85,894 |      0
+
+INFO misc.MiscSimulator : Timestep 187 took 4 ms
+INFO misc.MiscSimulator : Timestep 188
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 188
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9722 |     49 |    0,000 |    0,000 |   48,746 |      0
+    65399 |   8990 |     93 |    0,000 |    0,000 |   93,081 |      0
+
+INFO misc.MiscSimulator : Timestep 188 took 2 ms
+INFO misc.MiscSimulator : Timestep 189
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 189
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9673 |     49 |    0,000 |    0,000 |   49,474 |      0
+    65399 |   8889 |    101 |    0,000 |    0,000 |  100,611 |      0
+
+INFO misc.MiscSimulator : Timestep 189 took 5 ms
+INFO misc.MiscSimulator : Timestep 190
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 190
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9623 |     50 |    0,000 |    0,000 |   50,202 |      0
+    65399 |   8678 |    211 |    0,000 |    0,000 |  210,809 |      0
+
+INFO misc.MiscSimulator : Timestep 190 took 2 ms
+INFO misc.MiscSimulator : Timestep 191
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 191
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9567 |     56 |    0,000 |    0,000 |   56,099 |      0
+    65399 |   8434 |    244 |    0,000 |    0,000 |  244,265 |      0
+
+INFO misc.MiscSimulator : Timestep 191 took 3 ms
+INFO misc.MiscSimulator : Timestep 192
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 192
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9505 |     62 |    0,000 |    0,000 |   62,165 |      0
+    65399 |   8175 |    259 |    0,000 |    0,000 |  259,312 |      0
+
+INFO misc.MiscSimulator : Timestep 192 took 2 ms
+INFO misc.MiscSimulator : Timestep 193
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 193
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9421 |     84 |    0,000 |    0,000 |   83,983 |      0
+    65399 |   7783 |    392 |    0,000 |    0,000 |  391,719 |      0
+
+INFO misc.MiscSimulator : Timestep 193 took 1 ms
+INFO misc.MiscSimulator : Timestep 194
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 194
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9335 |     86 |    0,000 |    0,000 |   85,880 |      0
+    65399 |   7329 |    454 |    0,000 |    0,000 |  454,220 |      0
+
+INFO misc.MiscSimulator : Timestep 194 took 3 ms
+INFO misc.MiscSimulator : Timestep 195
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 195
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9226 |    109 |    0,000 |    0,000 |  108,826 |      0
+    65399 |   6823 |    506 |    0,000 |    0,000 |  505,938 |      0
+
+INFO misc.MiscSimulator : Timestep 195 took 2 ms
+INFO misc.MiscSimulator : Timestep 196
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 196
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   9109 |    117 |    0,000 |    0,000 |  117,207 |      0
+    65239 |   9995 |      5 |    0,000 |    0,000 |    5,139 |      0
+    65399 |   6247 |    576 |    0,000 |    0,000 |  576,339 |      0
+
+INFO misc.MiscSimulator : Timestep 196 took 2 ms
+INFO misc.MiscSimulator : Timestep 197
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 197
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   8988 |    121 |    0,000 |    0,000 |  120,766 |      0
+    65239 |   9985 |     10 |    0,000 |    0,000 |   10,293 |      0
+    65399 |   5581 |    666 |    0,000 |    0,000 |  665,950 |      0
+
+INFO misc.MiscSimulator : Timestep 197 took 3 ms
+INFO misc.MiscSimulator : Timestep 198
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 198
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   8858 |    130 |    0,000 |    0,000 |  129,854 |      0
+    65239 |   9954 |     31 |    0,000 |    0,000 |   30,660 |      0
+    65399 |   4804 |    777 |    0,000 |    0,000 |  776,946 |      0
+
+INFO misc.MiscSimulator : Timestep 198 took 3 ms
+INFO misc.MiscSimulator : Timestep 199
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 199
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   8718 |    140 |    0,000 |    0,000 |  139,521 |      0
+    65239 |   9918 |     36 |    0,000 |    0,000 |   36,124 |      0
+    65399 |   3848 |    956 |    0,000 |    0,000 |  955,866 |      0
+
+INFO misc.MiscSimulator : Timestep 199 took 6 ms
+INFO misc.MiscSimulator : Timestep 200
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 200
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   8568 |    150 |    0,000 |    0,000 |  149,862 |      0
+    65239 |   9876 |     42 |    0,000 |    0,000 |   41,683 |      0
+    65399 |   2656 |   1192 |    0,000 |    0,000 | 1191,806 |      0
+
+INFO misc.MiscSimulator : Timestep 200 took 2 ms
+INFO misc.MiscSimulator : Timestep 201
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 201
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   8302 |    266 |    0,000 |    0,000 |  265,592 |      0
+    65239 |   9829 |     47 |    0,000 |    0,000 |   47,365 |      0
+    65399 |   1101 |   1555 |    0,000 |    0,000 | 1555,025 |      0
+
+INFO misc.MiscSimulator : Timestep 201 took 3 ms
+INFO misc.MiscSimulator : Timestep 202
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 202
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   8019 |    283 |    0,000 |    0,000 |  283,352 |      0
+    65239 |   9776 |     53 |    0,000 |    0,000 |   53,184 |      0
+
+INFO misc.MiscSimulator : Timestep 202 took 1 ms
+INFO misc.MiscSimulator : Timestep 203
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 203
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   7599 |    420 |    0,000 |    0,000 |  420,218 |      0
+    65239 |   9722 |     54 |    0,000 |    0,000 |   54,043 |      0
+
+INFO misc.MiscSimulator : Timestep 203 took 2 ms
+INFO misc.MiscSimulator : Timestep 204
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 204
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   7134 |    465 |    0,000 |    0,000 |  464,502 |      0
+    65239 |   9667 |     55 |    0,000 |    0,000 |   54,905 |      0
+
+INFO misc.MiscSimulator : Timestep 204 took 1 ms
+INFO misc.MiscSimulator : Timestep 205
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 205
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   6490 |    644 |    0,000 |    0,000 |  644,282 |      0
+    65239 |   9611 |     56 |    0,000 |    0,000 |   55,776 |      0
+
+INFO misc.MiscSimulator : Timestep 205 took 2 ms
+INFO misc.MiscSimulator : Timestep 206
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 206
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   5742 |    748 |    0,000 |    0,000 |  748,190 |      0
+    65239 |   9554 |     57 |    0,000 |    0,000 |   56,696 |      0
+
+INFO misc.MiscSimulator : Timestep 206 took 5 ms
+INFO misc.MiscSimulator : Timestep 207
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 207
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   4714 |   1028 |    0,000 |    0,000 | 1028,180 |      0
+    65239 |   9496 |     58 |    0,000 |    0,000 |   57,636 |      0
+
+INFO misc.MiscSimulator : Timestep 207 took 1 ms
+INFO misc.MiscSimulator : Timestep 208
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 208
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   3421 |   1293 |    0,000 |    0,000 | 1292,573 |      0
+    65239 |   9417 |     79 |    0,000 |    0,000 |   79,279 |      0
+
+INFO misc.MiscSimulator : Timestep 208 took 1 ms
+INFO misc.MiscSimulator : Timestep 209
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 209
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65243 |   1702 |   1719 |    0,000 |    0,000 | 1718,653 |      0
+    65239 |   9336 |     81 |    0,000 |    0,000 |   80,975 |      0
+
+INFO misc.MiscSimulator : Timestep 209 took 2 ms
+INFO misc.MiscSimulator : Timestep 210
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 210
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   9248 |     88 |    0,000 |    0,000 |   87,949 |      0
+
+INFO misc.MiscSimulator : Timestep 210 took 1 ms
+INFO misc.MiscSimulator : Timestep 211
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 211
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   9158 |     90 |    0,000 |    0,000 |   90,024 |      0
+
+INFO misc.MiscSimulator : Timestep 211 took 1 ms
+INFO misc.MiscSimulator : Timestep 212
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 212
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   9045 |    113 |    0,000 |    0,000 |  113,149 |      0
+
+INFO misc.MiscSimulator : Timestep 212 took 1 ms
+INFO misc.MiscSimulator : Timestep 213
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 213
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   8907 |    138 |    0,000 |    0,000 |  137,713 |      0
+
+INFO misc.MiscSimulator : Timestep 213 took 2 ms
+INFO misc.MiscSimulator : Timestep 214
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 214
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   8759 |    148 |    0,000 |    0,000 |  147,939 |      0
+
+INFO misc.MiscSimulator : Timestep 214 took 2 ms
+INFO misc.MiscSimulator : Timestep 215
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 215
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   8496 |    263 |    0,000 |    0,000 |  263,420 |      0
+
+INFO misc.MiscSimulator : Timestep 215 took 5 ms
+INFO misc.MiscSimulator : Timestep 216
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 216
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   8215 |    281 |    0,000 |    0,000 |  280,917 |      0
+
+INFO misc.MiscSimulator : Timestep 216 took 2 ms
+INFO misc.MiscSimulator : Timestep 217
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 217
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   7891 |    324 |    0,000 |    0,000 |  323,682 |      0
+
+INFO misc.MiscSimulator : Timestep 217 took 2 ms
+INFO misc.MiscSimulator : Timestep 218
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 218
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   7518 |    373 |    0,000 |    0,000 |  373,354 |      0
+
+INFO misc.MiscSimulator : Timestep 218 took 5 ms
+INFO misc.MiscSimulator : Timestep 219
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 219
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   7086 |    432 |    0,000 |    0,000 |  432,163 |      0
+
+INFO misc.MiscSimulator : Timestep 219 took 2 ms
+INFO misc.MiscSimulator : Timestep 220
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 220
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   6601 |    485 |    0,000 |    0,000 |  485,076 |      0
+
+INFO misc.MiscSimulator : Timestep 220 took 1 ms
+INFO misc.MiscSimulator : Timestep 221
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 221
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   6057 |    544 |    0,000 |    0,000 |  544,030 |      0
+
+INFO misc.MiscSimulator : Timestep 221 took 3 ms
+INFO misc.MiscSimulator : Timestep 222
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 222
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   5309 |    748 |    0,000 |    0,000 |  747,867 |      0
+
+INFO misc.MiscSimulator : Timestep 222 took 3 ms
+INFO misc.MiscSimulator : Timestep 223
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 223
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   4421 |    888 |    0,000 |    0,000 |  887,834 |      0
+
+INFO misc.MiscSimulator : Timestep 223 took 2 ms
+INFO misc.MiscSimulator : Timestep 224
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 224
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   3336 |   1085 |    0,000 |    0,000 | 1085,006 |      0
+
+INFO misc.MiscSimulator : Timestep 224 took 2 ms
+INFO misc.MiscSimulator : Timestep 225
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 225
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |   1926 |   1410 |    0,000 |    0,000 | 1410,383 |      0
+
+INFO misc.MiscSimulator : Timestep 225 took 8 ms
+INFO misc.MiscSimulator : Timestep 226
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 226
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+    65239 |     18 |   1908 |    0,000 |    0,000 | 1907,818 |      0
+
+INFO misc.MiscSimulator : Timestep 226 took 2 ms
+INFO misc.MiscSimulator : Timestep 227
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 227
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 227 took 1 ms
+INFO misc.MiscSimulator : Timestep 228
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 228
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 228 took 9 ms
+INFO misc.MiscSimulator : Timestep 229
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 229
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 229 took 1 ms
+INFO misc.MiscSimulator : Timestep 230
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 230
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 230 took 1 ms
+INFO misc.MiscSimulator : Timestep 231
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 231
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 231 took 1 ms
+INFO misc.MiscSimulator : Timestep 232
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 232
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 232 took 2 ms
+INFO misc.MiscSimulator : Timestep 233
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 233
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 233 took 5 ms
+INFO misc.MiscSimulator : Timestep 234
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 234
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 234 took 1 ms
+INFO misc.MiscSimulator : Timestep 235
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 235
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 235 took 1 ms
+INFO misc.MiscSimulator : Timestep 236
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 236
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 236 took 1 ms
+INFO misc.MiscSimulator : Timestep 237
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 237
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 237 took 3 ms
+INFO misc.MiscSimulator : Timestep 238
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 238
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 238 took 1 ms
+INFO misc.MiscSimulator : Timestep 239
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 239
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 239 took 1 ms
+INFO misc.MiscSimulator : Timestep 240
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 240
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 240 took 1 ms
+INFO misc.MiscSimulator : Timestep 241
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 241
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 241 took 1 ms
+INFO misc.MiscSimulator : Timestep 242
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 242
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 242 took 1 ms
+INFO misc.MiscSimulator : Timestep 243
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 243
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 243 took 0 ms
+INFO misc.MiscSimulator : Timestep 244
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 244
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 244 took 1 ms
+INFO misc.MiscSimulator : Timestep 245
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 245
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 245 took 1 ms
+INFO misc.MiscSimulator : Timestep 246
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 246
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 246 took 2 ms
+INFO misc.MiscSimulator : Timestep 247
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 247
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 247 took 1 ms
+INFO misc.MiscSimulator : Timestep 248
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 248
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 248 took 1 ms
+INFO misc.MiscSimulator : Timestep 249
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 249
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 249 took 1 ms
+INFO misc.MiscSimulator : Timestep 250
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 250
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 250 took 1 ms
+INFO misc.MiscSimulator : Timestep 251
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 251
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 251 took 2 ms
+INFO misc.MiscSimulator : Timestep 252
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 252
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 252 took 1 ms
+INFO misc.MiscSimulator : Timestep 253
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 253
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 253 took 1 ms
+INFO misc.MiscSimulator : Timestep 254
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 254
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 254 took 1 ms
+INFO misc.MiscSimulator : Timestep 255
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 255
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 255 took 1 ms
+INFO misc.MiscSimulator : Timestep 256
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 256
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 256 took 1 ms
+INFO misc.MiscSimulator : Timestep 257
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 257
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 257 took 1 ms
+INFO misc.MiscSimulator : Timestep 258
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 258
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 258 took 1 ms
+INFO misc.MiscSimulator : Timestep 259
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 259
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 259 took 1 ms
+INFO misc.MiscSimulator : Timestep 260
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 260
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 260 took 2 ms
+INFO misc.MiscSimulator : Timestep 261
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 261
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 261 took 7 ms
+INFO misc.MiscSimulator : Timestep 262
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 262
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 262 took 4 ms
+INFO misc.MiscSimulator : Timestep 263
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 263
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 263 took 2 ms
+INFO misc.MiscSimulator : Timestep 264
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 264
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 264 took 1 ms
+INFO misc.MiscSimulator : Timestep 265
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 265
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 265 took 1 ms
+INFO misc.MiscSimulator : Timestep 266
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 266
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 266 took 1 ms
+INFO misc.MiscSimulator : Timestep 267
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 267
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 267 took 1 ms
+INFO misc.MiscSimulator : Timestep 268
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 268
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 268 took 1 ms
+INFO misc.MiscSimulator : Timestep 269
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 269
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 269 took 1 ms
+INFO misc.MiscSimulator : Timestep 270
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 270
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 270 took 1 ms
+INFO misc.MiscSimulator : Timestep 271
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 271
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 271 took 2 ms
+INFO misc.MiscSimulator : Timestep 272
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 272
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 272 took 2 ms
+INFO misc.MiscSimulator : Timestep 273
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 273
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 273 took 1 ms
+INFO misc.MiscSimulator : Timestep 274
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 274
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 274 took 1 ms
+INFO misc.MiscSimulator : Timestep 275
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 275
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 275 took 1 ms
+INFO misc.MiscSimulator : Timestep 276
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 276
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 276 took 2 ms
+INFO misc.MiscSimulator : Timestep 277
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 277
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 277 took 1 ms
+INFO misc.MiscSimulator : Timestep 278
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 278
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 278 took 4 ms
+INFO misc.MiscSimulator : Timestep 279
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 279
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 279 took 13 ms
+INFO misc.MiscSimulator : Timestep 280
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 280
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 280 took 1 ms
+INFO misc.MiscSimulator : Timestep 281
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 281
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 281 took 1 ms
+INFO misc.MiscSimulator : Timestep 282
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 282
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 282 took 0 ms
+INFO misc.MiscSimulator : Timestep 283
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 283
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 283 took 2 ms
+INFO misc.MiscSimulator : Timestep 284
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 284
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 284 took 9 ms
+INFO misc.MiscSimulator : Timestep 285
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 285
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 285 took 1 ms
+INFO misc.MiscSimulator : Timestep 286
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 286
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 286 took 1 ms
+INFO misc.MiscSimulator : Timestep 287
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 287
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 287 took 1 ms
+INFO misc.MiscSimulator : Timestep 288
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 288
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 288 took 1 ms
+INFO misc.MiscSimulator : Timestep 289
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 289
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 289 took 1 ms
+INFO misc.MiscSimulator : Timestep 290
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 290
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 290 took 1 ms
+INFO misc.MiscSimulator : Timestep 291
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 291
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 291 took 1 ms
+INFO misc.MiscSimulator : Timestep 292
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 292
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 292 took 1 ms
+INFO misc.MiscSimulator : Timestep 293
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 293
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 293 took 1 ms
+INFO misc.MiscSimulator : Timestep 294
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 294
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 294 took 1 ms
+INFO misc.MiscSimulator : Timestep 295
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 295
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 295 took 2 ms
+INFO misc.MiscSimulator : Timestep 296
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 296
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 296 took 1 ms
+INFO misc.MiscSimulator : Timestep 297
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 297
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 297 took 1 ms
+INFO misc.MiscSimulator : Timestep 298
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 298
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 298 took 1 ms
+INFO misc.MiscSimulator : Timestep 299
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 299
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 299 took 1 ms
+INFO misc.MiscSimulator : Timestep 300
+DEBUG misc.MiscSimulator : Agents damaged or buried at timestep 300
+    ID    |   HP   | Damage |   Bury   | Collapse |   Fire   | Buriedness
+
+INFO misc.MiscSimulator : Timestep 300 took 2 ms

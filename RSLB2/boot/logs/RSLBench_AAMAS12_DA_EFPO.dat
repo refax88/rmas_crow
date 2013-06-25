@@ -1,0 +1,2 @@
+ StartTime:50 EndTime: 300 Range: 50000000 CostTradeOff: 100.0 SelectTargets when Idle: true
+# Time  NumBuildings  NumBurining  numOnceBurned  numDestroyed  totalAreaDestroyed violatedConstraints

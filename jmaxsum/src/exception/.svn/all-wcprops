@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/63/trunk/jmaxsum/src/exception
+END
+UnInitializatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/jmaxsum/src/exception/UnInitializatedException.java
+END
+ParameterNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/17/trunk/jmaxsum/src/exception/ParameterNotFoundException.java
+END
+MaximumNumberOfAttemptsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/63/trunk/jmaxsum/src/exception/MaximumNumberOfAttemptsException.java
+END
+ReceiverNullException.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/jmaxsum/src/exception/ReceiverNullException.java
+END
+MessagesFixedPointException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/37/trunk/jmaxsum/src/exception/MessagesFixedPointException.java
+END
+NodeVariableNotInMapException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/jmaxsum/src/exception/NodeVariableNotInMapException.java
+END
+PostServiceNotSetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/jmaxsum/src/exception/PostServiceNotSetException.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/17/trunk/jmaxsum/src/exception/package-info.java
+END
+FunctionEvaluatorNotSetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6/trunk/jmaxsum/src/exception/FunctionEvaluatorNotSetException.java
+END
+InvalidInputFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/jmaxsum/src/exception/InvalidInputFileException.java
+END
+FunctionNotPresentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/jmaxsum/src/exception/FunctionNotPresentException.java
+END
+LengthMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/jmaxsum/src/exception/LengthMismatchException.java
+END
+ResultOkException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/52/trunk/jmaxsum/src/exception/ResultOkException.java
+END
+ValueNotSetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/17/trunk/jmaxsum/src/exception/ValueNotSetException.java
+END
+SenderNullException.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/jmaxsum/src/exception/SenderNullException.java
+END
+OutOfNodeNumberException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/jmaxsum/src/exception/OutOfNodeNumberException.java
+END
+NoMoreValuesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/52/trunk/jmaxsum/src/exception/NoMoreValuesException.java
+END
+OutOfNodeVariableNumberException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/jmaxsum/src/exception/OutOfNodeVariableNumberException.java
+END
+OutOfNodeFunctionNumberException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/jmaxsum/src/exception/OutOfNodeFunctionNumberException.java
+END
+VariableNotSetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/jmaxsum/src/exception/VariableNotSetException.java
+END
+WeightNotSetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/jmaxsum/src/exception/WeightNotSetException.java
+END
+OutOfAgentNumberException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8/trunk/jmaxsum/src/exception/OutOfAgentNumberException.java
+END
+NodeTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/17/trunk/jmaxsum/src/exception/NodeTypeException.java
+END
+NoMoreGeneratorsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/62/trunk/jmaxsum/src/exception/NoMoreGeneratorsException.java
+END
+InitializatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/32/trunk/jmaxsum/src/exception/InitializatedException.java
+END

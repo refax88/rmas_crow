@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/64/trunk/jmaxsum/src/boundedMaxSum
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/17/trunk/jmaxsum/src/boundedMaxSum/package-info.java
+END
+InstanceCloner.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/48/trunk/jmaxsum/src/boundedMaxSum/InstanceCloner.java
+END
+BoundedMaxSum.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/64/trunk/jmaxsum/src/boundedMaxSum/BoundedMaxSum.java
+END
+EdgeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/17/trunk/jmaxsum/src/boundedMaxSum/EdgeComparator.java
+END

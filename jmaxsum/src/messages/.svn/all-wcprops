@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/51/trunk/jmaxsum/src/messages
+END
+QMessageListArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/QMessageListArrayDouble.java
+END
+RMessageListArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/RMessageListArrayDouble.java
+END
+MessageQArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27/trunk/jmaxsum/src/messages/MessageQArrayDouble.java
+END
+MessageRArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27/trunk/jmaxsum/src/messages/MessageRArrayDouble.java
+END
+QMessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/QMessageList.java
+END
+RMessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/RMessageList.java
+END
+MessageQ.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/jmaxsum/src/messages/MessageQ.java
+END
+PostService.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/PostService.java
+END
+MessageR.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/jmaxsum/src/messages/MessageR.java
+END
+MessageFactoryArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/45/trunk/jmaxsum/src/messages/MessageFactoryArrayDouble.java
+END
+MessageContentArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/46/trunk/jmaxsum/src/messages/MessageContentArrayDouble.java
+END
+MessageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/45/trunk/jmaxsum/src/messages/MessageFactory.java
+END
+MailMan.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/MailMan.java
+END
+MessageArrayDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/51/trunk/jmaxsum/src/messages/MessageArrayDouble.java
+END
+MessageContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/51/trunk/jmaxsum/src/messages/MessageContent.java
+END
+MessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/36/trunk/jmaxsum/src/messages/MessageList.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/jmaxsum/src/messages/Message.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/17/trunk/jmaxsum/src/messages/package-info.java
+END
